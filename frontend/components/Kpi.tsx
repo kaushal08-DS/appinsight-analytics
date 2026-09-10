@@ -1,0 +1,1 @@
+export default function Kpi({label,value,sub}:{label:string,value:any,sub?:string}){return <div className="card p-5"><div className="text-sm muted">{label}</div><div className="text-2xl font-bold mt-2">{value??'—'}</div>{sub&&<div className="text-xs muted mt-1">{sub}</div>}</div>}
